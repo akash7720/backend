@@ -2,7 +2,7 @@ import express from 'express';
 import AllRoutes from './routes/index.js'
 import dotenv from 'dotenv';
 import mongoose from 'mongoose';
-import cros from 'cros'
+import cros from 'cors'
 
 const app = express();
 
