@@ -1,7 +1,11 @@
 import { Router } from "express";
-import { AddProduct } from "../controllers/Product.controllers.js";
+import { AddProduct } from "../controllers/AddProduct.controllers.js";
+
+
+
 const router = Router();
 
-router.post('/Addproducts',AddProduct)
+router.post('/Addproduct',AddProduct)
+
 
 export default router;
