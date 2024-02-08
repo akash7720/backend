@@ -3,8 +3,7 @@ import AllRoutes from './routes/index.js'
 import dotenv from 'dotenv';
 import mongoose from 'mongoose';
 import cros from 'cors'
-import  ProductRoutes from 'ProductRoutes'
-
+import ProductRoutes from './routes/ProductRoutes.js'
 const app = express();
 
 app.use(express.json());
